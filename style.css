@@ -1,0 +1,529 @@
+
+*{
+    box-sizing: border-box;
+}
+.header{
+    height: 850px;
+   background-image: url(img/Background.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+}
+.nv{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(240, 248, 255, 0) !important;
+}
+.navbar-brand{
+    padding-top: 30px;
+}
+.z{
+    padding-top: 38px;
+    color: #f9fafe !important;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.sng{
+    padding: 9px 0px;
+    margin-top: 27px;
+    width: 145px;
+    text-align: center;
+
+border-radius: 5px;
+background-color: rgba(201,9,4,0);
+border: 1px solid #f9fafe;
+}
+.header-middle{
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    text-align: center;
+    padding-top: 206px;
+}
+.header-middle h1{
+    font-size: 72px;
+    color: #f9fafe;
+    letter-spacing: 4px;
+    line-height: 28px;
+}
+.header-middle p{
+    font-size: 30px;
+    padding-top: 22px;
+    color: #dbdce0a9;;
+    font-family: 'Open Sans', sans-serif
+}
+.inp input{
+    width: 500px;
+    max-width: 100%;
+    padding: 10px;
+    margin-top: 60px;
+    border-radius: 5px;
+    height: 57px;
+    background-color: #ffffff;
+    margin-left: -6px;
+    max-width: 100%;
+}
+.inp{
+
+    display: inline-block;
+}
+.tx{
+    width: 15% !important;
+}
+.lastbt{
+      
+      margin-bottom: 5px;
+      padding: 6px 24px;
+      margin-left: -7px;
+}
+.lastinput input{
+    width: 214px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 37px;
+    background-color: #ffffff;
+    margin-left: -6px;
+    max-width: 100%
+}
+.lstinput{
+    width: 240px;
+    max-width: 100%;
+    padding: 10px;
+    margin-top: 60px;
+    border-radius: 5px;
+    height: 57px;
+    background-color: #ffffff;
+    margin-left: -6px;
+    max-width: 100%;
+}
+.lasticons{
+    display: flex;
+}
+.lasticons img{
+    margin-right: 20px !important;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+.form-control{
+    display:inline-block;
+}
+.cnt{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.bt{
+    height: 57px;
+   
+    margin-bottom: 2px;
+    padding: 18px 40px;
+}
+.bt img{
+    margin-bottom: 7px;
+    margin-right: 5px;
+}
+.bs{
+    margin-top: -50px !important;
+    filter: drop-shadow(0 0 15px) ;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #343434 !important;
+}
+.nambers{
+    border-right: 1px solid rgba(5, 5, 5, 0.158);
+    margin-top: 15px;
+}
+.nambers p{
+    color: #717171;
+}
+.nam-cols{
+    padding: 10px;
+}
+.s{
+    border-right: none;
+}
+.txt{
+    padding-top: 86px;
+}
+.txt h3{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #343435;
+    font-family: 'Raleway', sans-serif;
+}
+.txt p{
+font-size: 16px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #717171;
+font-weight: 400;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+padding-top: 7px;
+}
+.Figueira{
+    height: 360px;
+    background-image: url(img/Pursuit+Rendezvous+2019+_+natehphoto-0502.jpg);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   padding: 30px;
+   cursor: pointer;
+   border-radius: 5px;
+   opacity: 0.95;
+}
+.ibiza{
+    height: 360px;
+    background-image: url(img/HD-wallpaper-ibiza-evening-sunset-mediterranean-sea-coast-seascape-palms-yachts-spain-palms-on-the-background-of-the-sea.jpg);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   padding: 30px;
+   border-radius: 5px;
+   cursor: pointer;
+   opacity: 0.95;
+}
+.Palma{
+    height: 360px;
+    background-image: url(img/wp2308105.jpg);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   padding: 30px;
+   border-radius: 5px;
+   cursor: pointer;
+   opacity: 0.95;
+}
+.Portofino{
+    height: 360px;
+    background-image: url(img/building-home-yachts-port-italy-hd-wallpaper-preview.jpg);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   padding: 30px;
+   border-radius: 5px;
+   cursor: pointer;
+   opacity: 0.95;
+}
+.Hercules{
+    height: 360px;
+    background-image: url(img/cityscapes-wallpaper-preview.jpg);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   padding: 30px;
+   border-radius: 5px;
+   cursor: pointer;
+   opacity: 0.95;
+}
+.delphia{
+    height: 330px;
+    background-image: url(img/crynoline_1_pic1.png);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   padding: 30px;
+   border-radius: 5px;
+   cursor: pointer;
+ opacity: 0.95;
+}
+.sense{
+    height: 330px;
+    background-image: url(img/20048-3300983.png);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   padding: 30px;
+   border-radius: 5px;
+   cursor: pointer;
+   opacity: 0.95;
+}
+.crusier{
+    height: 330px;
+    background-image: url(img/CR51_Exterior_1.png);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   padding: 30px;
+   border-radius: 5px;
+   cursor: pointer;
+   opacity: 0.95;
+}
+.crs{
+    height: 330px;
+    background-image: url(img/cruiser41s.png);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   padding: 30px;
+   border-radius: 5px;
+   cursor: pointer;
+   opacity: 0.95;
+}
+.city-hover:hover{
+  opacity: 1;
+}
+.zz{
+  padding: 10px;
+}
+.icn{
+    width: 80px;
+    height: 42px;
+    border-radius: 5px;
+     background-color: #e7434e;
+     text-align: center;
+    padding-top: 8px;
+    color: #f9fafe;
+}
+.icnn{
+    width: 120px;
+    height: 42px;
+    border-radius: 5px;
+     background-color: #e7434e;
+     text-align: center;
+    padding-top: 8px;
+    color: #f9fafe;
+    font-size: 16px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #ffffff;
+font-weight: 700;
+font-family: 'Open Sans', sans-serif
+}
+.icn img{
+    padding-bottom: 6px;
+}
+.icn-text h6{
+    color: #ffffff;
+    font-size: 30px;
+letter-spacing: 1px;
+line-height: 40px;
+font-family: 'Raleway', sans-serif;
+}
+.icn-text p{
+letter-spacing: 1px;
+line-height: 40px;
+color: #f5f5f5;
+font-family: 'Raleway', sans-serif;
+}
+.fgr-text {
+    padding-top: 185px;
+}
+.fg-text{
+    padding-top: 165px;
+}
+.fg-icn{
+    display: flex;
+    margin-right: 20px;
+} img{
+    height: 17px;
+    margin-right: 5px;
+}
+.fg2-icn img{
+    height: 14px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.fg2-icn{
+    display: flex;
+}
+.mapicon{
+    display: flex;
+}
+.mapicon h6{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif
+}
+.explore{
+    width: 310px;
+    height: 58px;
+    border-radius: 5px;
+background-color: rgba(113,113,113,0);
+border: 1px solid rgba(38,38,38,0.3);
+text-align: center;
+margin: auto;
+margin-top: 100px;
+}
+.mrboats{
+    margin-top: 90px;
+    width: 230px !important;
+    margin-bottom: 85px;
+}
+.mrboats h6{
+    padding-top: 17px !important;
+}
+.last-text  h4{
+    font-size: 14px;
+letter-spacing: 1px;
+line-height: 22px;
+color: #ffffff;
+font-weight: 700;
+font-family: 'Raleway', sans-serif;
+}
+.lstcl4 h4{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+.last-text p{
+    width: 170px;
+height: 155px;
+font-size: 14px;
+letter-spacing: 1px;
+line-height: 34px;
+color: #ffffff77;
+font-weight: 400;
+font-family: 'Open Sans', sans-serif
+
+}
+.explore h6{
+    padding-top: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #343434;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+.divimg{
+    height: 600px;
+    width: 100%;
+    background-image: url(img/photo-1452065656801-6c60b6e7cbc5.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 100px;
+   margin-bottom: 50px;
+   background-attachment: fixed;
+}
+.divimg-text h1{
+    font-size: 72px;
+letter-spacing: 6px;
+line-height: 28px;
+color: #f9fafe;
+font-weight: 700;
+font-family: 'Raleway', sans-serif;
+}
+.divimg-text p{
+    font-size: 30px;
+letter-spacing: 1px;
+line-height: 22px;
+color: #f9fafe96;
+font-weight: 400;
+padding-top: 35px;
+font-family: 'Open Sans', sans-serif
+
+}
+.divimg-text{
+   text-align: center;
+   padding-top: 180px;
+}
+.divimg-text button{
+    padding: 17px 31px;
+    margin-top: 75px;
+}
+.featured h1{
+    font-size: 30px;
+letter-spacing: 1px;
+line-height: 28px;
+color: #343435;
+font-family: 'Raleway', sans-serif;
+}
+.featured p{
+    margin-top: 22px;
+height: 27px;
+font-size: 16px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #717171;
+font-weight: 400;
+}
+.end{
+    height: 100%;
+    width: 100%;
+ background-color: #404040;;
+ display: flex;
+ flex-wrap: wrap;
+overflow: hidden;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #00000052;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+
+
+@media (min-width: 1400px){
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1100px;
+}
+@media (max-width:900px) {
+    .nv{
+     margin-left: 50px;
+     margin-right: 50px;
+    }
+    .navbar-brand {
+        padding-top: 0px
+    }
+    .header-middle h1 {
+        font-size: 50px;
+        color: #f9fafe;
+        letter-spacing: 4px;
+        line-height: 28px;
+    }
+    .header-middle p {
+        font-size: 20px;
+        color: #f9fafe;
+        letter-spacing: 4px;
+        line-height: 28px;
+    }
+}
+@media (max-width:750px) {
+   
+.md{
+    width: 50%;
+}
+.inp input{
+    width: 100%;
+}
+}
+@media (max-width:650px) {
+    .nv{
+        margin-left: 10px;
+        margin-right: 10px;
+       }
+   
+    .header-middle h1{
+font-size: 25px;
+    }
+    .header-middle p{
+        font-size: 10px;
+    }
+    }
